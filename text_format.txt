@@ -1,0 +1,65 @@
+:font-family:tahoma;
+font-weight:800;
+font-style:italic;
+text-decoration:underline;
+text-transform:uppercase;
+letter-spacing:0.2em;
+word-spacing:1em;
+
+
+for the list item for adding image alongside--
+
+list-style-image:url('../images/check.png');
+
+for form----
+.my-form----main class
+{
+padding:20px;
+}
+
+.myform .form-group{
+padding-bottom:15px;
+}
+
+.my-form label
+{
+display:block---brings text input in different line
+
+}
+
+.my-form input[type="text"], .my-form textarea{
+padding:8px;
+width:100%
+}
+padding:10px(top,bottom) 15px(left,right);
+
+for submit button---
+.myform input[type="submit]
+{
+background-color:#fff;
+border:none;
+
+.button:hover
+{
+}
+pseudo-class
+
+{
+.my-list li:first-child
+{
+background:red;
+}
+
+---- if you want to color 5th child
+
+.my-list li:nth-child(5)
+{
+background:yellow;
+}
+
+.my-list li:nth-child(even)
+{
+background:yellow;
+}
+
+https://pixel2pixeldesign.com/popout-details-hover-css/--link for hovering
